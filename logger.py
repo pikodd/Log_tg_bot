@@ -2,8 +2,8 @@ import time
 from subprocess import check_output
 import telebot
 from os import _exit
-bot = telebot.TeleBot('1212555277:AAH1tRAH2Hb-ok3Tdh3Y1oALZfOM4KKot3o')
-user_id = 868714753
+bot = telebot.TeleBot('123')
+user_id = 123
 a=False
 @bot.message_handler(commands=['start'])
 def start_message(message):
